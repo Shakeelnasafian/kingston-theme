@@ -1,0 +1,21 @@
+/*
+Theme Name: Kingston
+Theme URI: https://kingstonca.com/
+Author: Kingston Chartered Auditing and Advisory
+Author URI: https://kingstonca.com/
+Description: Static premium theme for Kingston Chartered Auditing and Advisory, a Dubai-based audit, tax and advisory firm. Content lives in PHP template files; install, activate and edit the templates directly.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.6
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: kingston
+Tags: business, professional, one-column, custom-menu, featured-images, full-width-template
+*/
+
+/*
+ * The actual visual styles live in assets/css/styles.css and are enqueued via
+ * functions.php. WordPress only requires this file to exist with the header
+ * block above so the theme can be detected.
+ */
