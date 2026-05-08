@@ -2,155 +2,67 @@
 /**
  * Template Name: Statutory Audit
  *
- * Static page template converted from statutory-audit.html.
- * Edit the markup below to update the page; the WordPress editor is not used.
+ * Editable from WP admin via the "Service Detail — Kingston" ACF field group.
+ * The defaults array below preserves the original static content as fallback,
+ * so the page renders identically until an admin overrides individual fields.
  */
 get_header();
-?>
-<section class="page-header">
-  <div class="container">
-    <div class="crumbs">
-      <a href="<?php echo kingston_url('index.html'); ?>">Home</a> <span>›</span> <span>Statutory Audit</span>
-    </div>
-    <span class="eyebrow" style="color:var(--gold-400)">Audit &amp; Assurance</span>
-    <h1 class="mt-2">Statutory audit, signed off with confidence.</h1>
-    <p>Independent, IFRS-aligned external audits that satisfy UAE corporate law, Free Zone authority requirements and the expectations of banks, investors and your board.</p>
-  </div>
-</section>
-<div class="detail-banner">
-  <!-- IMAGE PLACEHOLDER · replace assets/img/services/statutory-audit.svg with banner photo -->
-  <div class="img-frame"><img src="<?php echo kingston_asset('img/services/statutory-audit.svg'); ?>" alt="Statutory Audit — Kingston" loading="lazy"/></div>
-</div>
 
-<section>
-  <div class="container service-layout">
-    <div class="service-content reveal">
-      <span class="eyebrow">Overview</span>
-      <h2 style="margin-top:14px">Statutory Audit in the UAE — done right.</h2>
-      <p>A statutory audit is more than a compliance tick. It is the moment when your stakeholders — banks, shareholders, regulators, investors — get to see whether your numbers can be trusted.</p>
-        <p>As a leading chartered audit firm in the UAE, Kingston provides comprehensive statutory audit services that ensure your business complies with local laws and international standards — and gives every external reader of your accounts complete confidence in what they see.</p>
-      <h3>What is included</h3>
-      <ul class="feat">
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Independent IFRS audit opinion</strong><span>Issued by senior chartered accountants licensed to sign UAE statutory audit reports.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>UAE corporate law compliance</strong><span>Full alignment with UAE Commercial Companies Law, Free Zone authority requirements and ESR.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Risk-based audit methodology</strong><span>We focus effort where it matters — material balances, judgement areas, and high-risk transactions.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Internal control review</strong><span>Findings on control weaknesses, with practical recommendations to strengthen your finance function.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Management letter &amp; debrief</strong><span>A clear written report and a partner-led debrief for your CFO, board or audit committee.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Audit-ready advisory</strong><span>Year-round access to your engagement partner for technical questions on accounting and reporting.</span></div>
-        </li>
-      </ul>
-      <h3>Why clients choose Kingston</h3>
-      <ul class="feat">
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Partner-led, no juniors flying solo</strong><span>A senior chartered accountant signs every workpaper and runs every closing meeting.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>On-time delivery, every time</strong><span>98% of our statutory audits are issued on or ahead of the agreed deadline.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Plain-English reporting</strong><span>Findings boards understand and management can act on — no jargon, no padding.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Free Zone &amp; Mainland fluency</strong><span>DMCC, JAFZA, DAFZA, ADGM, DIFC, Mainland — we know each authority's quirks.</span></div>
-        </li>
-      </ul>
-    </div>
-    <aside style="display:flex;flex-direction:column;gap:18px">
-      <div class="aside-card">
-        <h4>Talk to a partner</h4>
-        <p>Free, confidential, 30 minutes. We will tell you whether we can help and what it will cost.</p>
-        <a href="<?php echo kingston_url('contact.html'); ?>" class="btn btn-gold" style="width:100%">Book consultation</a>
-        <div class="info" style="margin-top:24px">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 2.08 4.18 2 2 0 0 1 4.07 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          <div><b>Call us</b>+971 50 874 7098</div>
-        </div>
-        <div class="info">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          <div><b>Email us</b>info@kingstonca.com</div>
-        </div>
-        <div class="info">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          <div><b>Visit us</b>Office 203, Aspin Commercial Tower, Sheikh Zayed Road, Dubai</div>
-        </div>
-      </div>
-      <div class="related-services">
-        <h4>Other services</h4>
-        <a href="<?php echo kingston_url('internal-audit.html'); ?>">Internal Audit <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('forensic-audit.html'); ?>">Forensic Audit <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('free-zone.html'); ?>">Free Zone Audit <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('due-diligence.html'); ?>">Due Diligence <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('corporate-tax.html'); ?>">Corporate Tax <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('vat.html'); ?>">VAT Services <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('services.html'); ?>" style="margin-top:6px;color:var(--gold-700);font-weight:600">View all services <span class="arrow">→</span></a>
-      </div>
-    </aside>
-  </div>
-</section>
+$kingston_detail_defaults = array(
+    'breadcrumb'   => 'Statutory Audit',
+    'page_eyebrow' => 'Audit & Assurance',
+    'page_heading' => 'Statutory audit, signed off with confidence.',
+    'page_intro'   => 'Independent, IFRS-aligned external audits that satisfy UAE corporate law, Free Zone authority requirements and the expectations of banks, investors and your board.',
+    'banner_image' => kingston_asset( 'img/services/statutory-audit.svg' ),
+    'banner_alt'   => 'Statutory Audit — Kingston',
 
-<section class="bg-bone">
-  <div class="container">
-    <div class="section-head reveal">
-      <span class="eyebrow center">Our process</span>
-      <h2>How a statutory audit engagement runs.</h2>
-    </div>
-    <div class="process">
-      <div class="step reveal"><span class="step-num">01</span><h4>Planning &amp; risk assessment</h4><p>We map your operations, financial structure and compliance requirements, identify risks and design a tailored audit strategy.</p></div>
-      <div class="step reveal"><span class="step-num">02</span><h4>Fieldwork &amp; testing</h4><p>Senior-led examination of financial documents, accounting records, internal controls and supporting evidence.</p></div>
-      <div class="step reveal"><span class="step-num">03</span><h4>Reporting</h4><p>A detailed audit report covering financial health, compliance status and recommendations for improvement.</p></div>
-      <div class="step reveal"><span class="step-num">04</span><h4>Post-audit support</h4><p>Expert guidance on corrective measures and strategies to strengthen financial controls for next year.</p></div>
-    </div>
-  </div>
-</section>
+    'overview_eyebrow' => 'Overview',
+    'overview_heading' => 'Statutory Audit in the UAE — done right.',
+    'overview_body'    => "A statutory audit is more than a compliance tick. It is the moment when your stakeholders — banks, shareholders, regulators, investors — get to see whether your numbers can be trusted.\n\nAs a leading chartered audit firm in the UAE, Kingston provides comprehensive statutory audit services that ensure your business complies with local laws and international standards — and gives every external reader of your accounts complete confidence in what they see.",
 
-<section>
-  <div class="container" style="max-width:880px">
-    <div class="section-head reveal">
-      <span class="eyebrow center">FAQ</span>
-      <h2>Common questions about statutory audit.</h2>
-    </div>
-      <details class="faq reveal"><summary>Is a statutory audit mandatory in the UAE?</summary><p>Yes — most UAE companies (Mainland and most Free Zones) are legally required to file annual audited financial statements. Kingston confirms your specific obligation in the discovery call.</p></details>
-      <details class="faq reveal"><summary>Which standards do you audit against?</summary><p>We audit in line with International Standards on Auditing (ISA) and report under International Financial Reporting Standards (IFRS), as required by UAE corporate law.</p></details>
-      <details class="faq reveal"><summary>How long does a statutory audit take?</summary><p>For a typical SME, fieldwork runs 2–4 weeks, with the final signed report issued 1–2 weeks after closing meetings. Larger or group audits scale from there.</p></details>
-      <details class="faq reveal"><summary>Are your audit reports accepted by Free Zones and banks?</summary><p>Yes — Kingston is a UAE-licensed chartered audit firm whose reports are accepted by all major Free Zones, banks and the Federal Tax Authority.</p></details>
-  </div>
-</section>
+    'includes_heading' => 'What is included',
+    'includes_items'   => array(
+        array( 'title' => 'Independent IFRS audit opinion', 'description' => 'Issued by senior chartered accountants licensed to sign UAE statutory audit reports.' ),
+        array( 'title' => 'UAE corporate law compliance', 'description' => 'Full alignment with UAE Commercial Companies Law, Free Zone authority requirements and ESR.' ),
+        array( 'title' => 'Risk-based audit methodology', 'description' => 'We focus effort where it matters — material balances, judgement areas, and high-risk transactions.' ),
+        array( 'title' => 'Internal control review', 'description' => 'Findings on control weaknesses, with practical recommendations to strengthen your finance function.' ),
+        array( 'title' => 'Management letter & debrief', 'description' => 'A clear written report and a partner-led debrief for your CFO, board or audit committee.' ),
+        array( 'title' => 'Audit-ready advisory', 'description' => 'Year-round access to your engagement partner for technical questions on accounting and reporting.' ),
+    ),
+    'why_heading' => 'Why clients choose Kingston',
+    'why_items'   => array(
+        array( 'title' => 'Partner-led, no juniors flying solo', 'description' => 'A senior chartered accountant signs every workpaper and runs every closing meeting.' ),
+        array( 'title' => 'On-time delivery, every time', 'description' => '98% of our statutory audits are issued on or ahead of the agreed deadline.' ),
+        array( 'title' => 'Plain-English reporting', 'description' => 'Findings boards understand and management can act on — no jargon, no padding.' ),
+        array( 'title' => 'Free Zone & Mainland fluency', 'description' => "DMCC, JAFZA, DAFZA, ADGM, DIFC, Mainland — we know each authority's quirks." ),
+    ),
+    'related_items' => array(
+        array( 'label' => 'Internal Audit',  'link' => 'internal-audit' ),
+        array( 'label' => 'Forensic Audit',  'link' => 'forensic-audit' ),
+        array( 'label' => 'Free Zone Audit', 'link' => 'free-zone' ),
+        array( 'label' => 'Due Diligence',   'link' => 'due-diligence' ),
+        array( 'label' => 'Corporate Tax',   'link' => 'corporate-tax' ),
+        array( 'label' => 'VAT Services',    'link' => 'vat' ),
+        array( 'label' => 'View all services', 'link' => 'services', 'view_all' => true ),
+    ),
 
-<section style="padding:48px 0 var(--section-y)">
-  <div class="container">
-    <div class="cta-banner reveal">
-      <div class="container cta-banner-row">
-        <div>
-          <span class="eyebrow" style="color:var(--gold-400)">Ready to talk?</span>
-          <h2 class="mt-2">Bring us your hardest audit, tax or advisory question.</h2>
-          <p>Book a free 30-minute consultation. We will tell you straight whether we can help — and how much it will cost.</p>
-        </div>
-        <div class="cta-actions">
-          <a href="<?php echo kingston_url('contact.html'); ?>" class="btn btn-gold">Book consultation <span class="arrow">→</span></a>
-          <a href="tel:+971508747098" class="btn btn-light">Call +971 50 874 7098</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<?php get_footer();
+    'process_eyebrow' => 'Our process',
+    'process_heading' => 'How a statutory audit engagement runs.',
+    'process_steps'   => array(
+        array( 'title' => 'Planning & risk assessment', 'description' => 'We map your operations, financial structure and compliance requirements, identify risks and design a tailored audit strategy.' ),
+        array( 'title' => 'Fieldwork & testing',        'description' => 'Senior-led examination of financial documents, accounting records, internal controls and supporting evidence.' ),
+        array( 'title' => 'Reporting',                  'description' => 'A detailed audit report covering financial health, compliance status and recommendations for improvement.' ),
+        array( 'title' => 'Post-audit support',         'description' => 'Expert guidance on corrective measures and strategies to strengthen financial controls for next year.' ),
+    ),
+    'faq_eyebrow' => 'FAQ',
+    'faq_heading' => 'Common questions about statutory audit.',
+    'faq_items'   => array(
+        array( 'question' => 'Is a statutory audit mandatory in the UAE?', 'answer' => 'Yes — most UAE companies (Mainland and most Free Zones) are legally required to file annual audited financial statements. Kingston confirms your specific obligation in the discovery call.' ),
+        array( 'question' => 'Which standards do you audit against?', 'answer' => 'We audit in line with International Standards on Auditing (ISA) and report under International Financial Reporting Standards (IFRS), as required by UAE corporate law.' ),
+        array( 'question' => 'How long does a statutory audit take?', 'answer' => 'For a typical SME, fieldwork runs 2–4 weeks, with the final signed report issued 1–2 weeks after closing meetings. Larger or group audits scale from there.' ),
+        array( 'question' => 'Are your audit reports accepted by Free Zones and banks?', 'answer' => 'Yes — Kingston is a UAE-licensed chartered audit firm whose reports are accepted by all major Free Zones, banks and the Federal Tax Authority.' ),
+    ),
+);
+
+get_template_part( 'template-parts/detail-page' );
+get_footer();

@@ -1,156 +1,59 @@
 <?php
 /**
  * Template Name: Corporate Tax
- *
- * Static page template converted from corporate-tax.html.
- * Edit the markup below to update the page; the WordPress editor is not used.
  */
 get_header();
-?>
-<section class="page-header">
-  <div class="container">
-    <div class="crumbs">
-      <a href="<?php echo kingston_url('index.html'); ?>">Home</a> <span>›</span> <span>Corporate Tax</span>
-    </div>
-    <span class="eyebrow" style="color:var(--gold-400)">Tax &amp; Compliance</span>
-    <h1 class="mt-2">UAE corporate tax — handled, end to end.</h1>
-    <p>Plan, file and defend. Corporate tax services that help businesses manage their tax obligations through planning, compliance, filing and advisory — ensuring adherence to UAE corporate tax laws and optimising tax efficiency.</p>
-  </div>
-</section>
-<div class="detail-banner">
-  <!-- IMAGE PLACEHOLDER · replace assets/img/services/corporate-tax.svg with banner photo -->
-  <div class="img-frame"><img src="<?php echo kingston_asset('img/services/corporate-tax.svg'); ?>" alt="Corporate Tax — Kingston" loading="lazy"/></div>
-</div>
 
-<section>
-  <div class="container service-layout">
-    <div class="service-content reveal">
-      <span class="eyebrow">Overview</span>
-      <h2 style="margin-top:14px">Corporate Tax in the UAE — done right.</h2>
-      <p>The introduction of UAE corporate tax has been the largest change in the country's regulatory landscape in a generation. The headline 9% rate is the easy part — the hard part is the structuring, the Qualifying Free Zone Person rules, transfer pricing, group relief and the exemption tests that determine what you actually pay.</p>
-        <p>Kingston's tax partners advise UAE businesses across the full corporate tax lifecycle — from initial registration to defending positions before the FTA — with a single goal: a fully compliant tax position, optimised within the four corners of the law.</p>
-      <h3>What is included</h3>
-      <ul class="feat">
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Corporate tax registration</strong><span>Federal Tax Authority registration, group registration and structuring of free zone, mainland and offshore entities.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Tax impact assessment</strong><span>A full diagnostic of how UAE corporate tax applies to your group — by entity, activity and revenue stream.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Structuring &amp; QFZP analysis</strong><span>Qualifying Free Zone Person eligibility, qualifying income testing, and group restructuring where appropriate.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Return preparation &amp; filing</strong><span>End-to-end preparation, review and filing of your annual corporate tax return with full supporting workpapers.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Transfer pricing</strong><span>Documentation, benchmarking and policy design — including local file, master file and disclosure form.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>FTA representation</strong><span>Responses to FTA enquiries, audits and clarifications — handled by partners who speak the FTA's language.</span></div>
-        </li>
-      </ul>
-      <h3>Why clients choose Kingston</h3>
-      <ul class="feat">
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Tax-technical depth</strong><span>A team of UAE corporate tax and transfer pricing specialists, with regular FTA workshop participation.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Optimisation, ethically</strong><span>Every legal lever — exemptions, group relief, qualifying income — pulled. No grey-area positions.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Audit defensibility built in</strong><span>Every position we advise is documented to a standard that survives FTA scrutiny.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Joined-up with your audit</strong><span>Tax and audit live under one roof — accounting policy and tax position aligned by design.</span></div>
-        </li>
-      </ul>
-    </div>
-    <aside style="display:flex;flex-direction:column;gap:18px">
-      <div class="aside-card">
-        <h4>Talk to a partner</h4>
-        <p>Free, confidential, 30 minutes. We will tell you whether we can help and what it will cost.</p>
-        <a href="<?php echo kingston_url('contact.html'); ?>" class="btn btn-gold" style="width:100%">Book consultation</a>
-        <div class="info" style="margin-top:24px">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 2.08 4.18 2 2 0 0 1 4.07 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          <div><b>Call us</b>+971 50 874 7098</div>
-        </div>
-        <div class="info">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          <div><b>Email us</b>info@kingstonca.com</div>
-        </div>
-        <div class="info">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          <div><b>Visit us</b>Office 203, Aspin Commercial Tower, Sheikh Zayed Road, Dubai</div>
-        </div>
-      </div>
-      <div class="related-services">
-        <h4>Other services</h4>
-        <a href="<?php echo kingston_url('statutory-audit.html'); ?>">Statutory Audit <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('internal-audit.html'); ?>">Internal Audit <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('forensic-audit.html'); ?>">Forensic Audit <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('free-zone.html'); ?>">Free Zone Audit <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('due-diligence.html'); ?>">Due Diligence <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('vat.html'); ?>">VAT Services <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('services.html'); ?>" style="margin-top:6px;color:var(--gold-700);font-weight:600">View all services <span class="arrow">→</span></a>
-      </div>
-    </aside>
-  </div>
-</section>
+$kingston_detail_defaults = array(
+    'breadcrumb'   => 'Corporate Tax',
+    'page_eyebrow' => 'Tax & Compliance',
+    'page_heading' => 'UAE corporate tax — handled, end to end.',
+    'page_intro'   => 'Plan, file and defend. Corporate tax services that help businesses manage their tax obligations through planning, compliance, filing and advisory — ensuring adherence to UAE corporate tax laws and optimising tax efficiency.',
+    'banner_image' => kingston_asset( 'img/services/corporate-tax.svg' ),
+    'banner_alt'   => 'Corporate Tax — Kingston',
 
-<section class="bg-bone">
-  <div class="container">
-    <div class="section-head reveal">
-      <span class="eyebrow center">Our process</span>
-      <h2>How a corporate tax engagement runs.</h2>
-    </div>
-    <div class="process">
-      <div class="step reveal"><span class="step-num">01</span><h4>Diagnostic</h4><p>Map your group, revenue streams and tax exposure. Identify quick wins and structural decisions.</p></div>
-      <div class="step reveal"><span class="step-num">02</span><h4>Plan &amp; structure</h4><p>Implement registrations, restructure where beneficial, and document the planned tax position.</p></div>
-      <div class="step reveal"><span class="step-num">03</span><h4>Compliance &amp; filing</h4><p>Annual return preparation, transfer pricing documentation and disclosure-form filing.</p></div>
-      <div class="step reveal"><span class="step-num">04</span><h4>Defence &amp; advisory</h4><p>Year-round access for technical questions; full FTA representation if your return is selected for audit.</p></div>
-    </div>
-  </div>
-</section>
+    'overview_heading' => 'Corporate Tax in the UAE — done right.',
+    'overview_body'    => "The introduction of UAE corporate tax has been the largest change in the country's regulatory landscape in a generation. The headline 9% rate is the easy part — the hard part is the structuring, the Qualifying Free Zone Person rules, transfer pricing, group relief and the exemption tests that determine what you actually pay.\n\nKingston's tax partners advise UAE businesses across the full corporate tax lifecycle — from initial registration to defending positions before the FTA — with a single goal: a fully compliant tax position, optimised within the four corners of the law.",
 
-<section>
-  <div class="container" style="max-width:880px">
-    <div class="section-head reveal">
-      <span class="eyebrow center">FAQ</span>
-      <h2>Common questions about corporate tax.</h2>
-    </div>
-      <details class="faq reveal"><summary>Who is subject to UAE corporate tax?</summary><p>All UAE businesses with taxable profits exceeding AED 375,000 are within scope, with specific regimes for Free Zone Persons, Qualifying Free Zone Persons and natural persons. Kingston confirms your exact obligation in the diagnostic.</p></details>
-      <details class="faq reveal"><summary>Do Free Zone companies still pay 0%?</summary><p>Only if they meet the Qualifying Free Zone Person conditions on every test — substance, qualifying income, transfer pricing and audited financials. We assess and document this annually.</p></details>
-      <details class="faq reveal"><summary>Do you handle transfer pricing?</summary><p>Yes — we prepare master file, local file and disclosure forms, and advise on intra-group pricing policies before they become an audit issue.</p></details>
-      <details class="faq reveal"><summary>Can you handle FTA audits?</summary><p>Yes — Kingston represents clients through the full FTA enquiry and audit process, including formal objections and reconsideration requests.</p></details>
-  </div>
-</section>
+    'includes_items' => array(
+        array( 'title' => 'Corporate tax registration',     'description' => 'Federal Tax Authority registration, group registration and structuring of free zone, mainland and offshore entities.' ),
+        array( 'title' => 'Tax impact assessment',          'description' => 'A full diagnostic of how UAE corporate tax applies to your group — by entity, activity and revenue stream.' ),
+        array( 'title' => 'Structuring & QFZP analysis',    'description' => 'Qualifying Free Zone Person eligibility, qualifying income testing, and group restructuring where appropriate.' ),
+        array( 'title' => 'Return preparation & filing',    'description' => 'End-to-end preparation, review and filing of your annual corporate tax return with full supporting workpapers.' ),
+        array( 'title' => 'Transfer pricing',               'description' => 'Documentation, benchmarking and policy design — including local file, master file and disclosure form.' ),
+        array( 'title' => 'FTA representation',             'description' => "Responses to FTA enquiries, audits and clarifications — handled by partners who speak the FTA's language." ),
+    ),
+    'why_items' => array(
+        array( 'title' => 'Tax-technical depth',         'description' => 'A team of UAE corporate tax and transfer pricing specialists, with regular FTA workshop participation.' ),
+        array( 'title' => 'Optimisation, ethically',     'description' => 'Every legal lever — exemptions, group relief, qualifying income — pulled. No grey-area positions.' ),
+        array( 'title' => 'Audit defensibility built in','description' => 'Every position we advise is documented to a standard that survives FTA scrutiny.' ),
+        array( 'title' => 'Joined-up with your audit',   'description' => 'Tax and audit live under one roof — accounting policy and tax position aligned by design.' ),
+    ),
+    'related_items' => array(
+        array( 'label' => 'Statutory Audit', 'link' => 'statutory-audit' ),
+        array( 'label' => 'Internal Audit',  'link' => 'internal-audit' ),
+        array( 'label' => 'Forensic Audit',  'link' => 'forensic-audit' ),
+        array( 'label' => 'Free Zone Audit', 'link' => 'free-zone' ),
+        array( 'label' => 'Due Diligence',   'link' => 'due-diligence' ),
+        array( 'label' => 'VAT Services',    'link' => 'vat' ),
+        array( 'label' => 'View all services', 'link' => 'services', 'view_all' => true ),
+    ),
 
-<section style="padding:48px 0 var(--section-y)">
-  <div class="container">
-    <div class="cta-banner reveal">
-      <div class="container cta-banner-row">
-        <div>
-          <span class="eyebrow" style="color:var(--gold-400)">Ready to talk?</span>
-          <h2 class="mt-2">Bring us your hardest audit, tax or advisory question.</h2>
-          <p>Book a free 30-minute consultation. We will tell you straight whether we can help — and how much it will cost.</p>
-        </div>
-        <div class="cta-actions">
-          <a href="<?php echo kingston_url('contact.html'); ?>" class="btn btn-gold">Book consultation <span class="arrow">→</span></a>
-          <a href="tel:+971508747098" class="btn btn-light">Call +971 50 874 7098</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<?php get_footer();
+    'process_heading' => 'How a corporate tax engagement runs.',
+    'process_steps'   => array(
+        array( 'title' => 'Diagnostic',          'description' => 'Map your group, revenue streams and tax exposure. Identify quick wins and structural decisions.' ),
+        array( 'title' => 'Plan & structure',    'description' => 'Implement registrations, restructure where beneficial, and document the planned tax position.' ),
+        array( 'title' => 'Compliance & filing', 'description' => 'Annual return preparation, transfer pricing documentation and disclosure-form filing.' ),
+        array( 'title' => 'Defence & advisory',  'description' => 'Year-round access for technical questions; full FTA representation if your return is selected for audit.' ),
+    ),
+    'faq_heading' => 'Common questions about corporate tax.',
+    'faq_items'   => array(
+        array( 'question' => 'Who is subject to UAE corporate tax?', 'answer' => 'All UAE businesses with taxable profits exceeding AED 375,000 are within scope, with specific regimes for Free Zone Persons, Qualifying Free Zone Persons and natural persons. Kingston confirms your exact obligation in the diagnostic.' ),
+        array( 'question' => 'Do Free Zone companies still pay 0%?', 'answer' => 'Only if they meet the Qualifying Free Zone Person conditions on every test — substance, qualifying income, transfer pricing and audited financials. We assess and document this annually.' ),
+        array( 'question' => 'Do you handle transfer pricing?', 'answer' => 'Yes — we prepare master file, local file and disclosure forms, and advise on intra-group pricing policies before they become an audit issue.' ),
+        array( 'question' => 'Can you handle FTA audits?', 'answer' => 'Yes — Kingston represents clients through the full FTA enquiry and audit process, including formal objections and reconsideration requests.' ),
+    ),
+);
+
+get_template_part( 'template-parts/detail-page' );
+get_footer();

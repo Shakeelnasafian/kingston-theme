@@ -21,8 +21,8 @@ get_header();
           <h2 class="mt-2">Start from the home page or talk to a partner.</h2>
         </div>
         <div class="cta-actions">
-          <a href="<?php echo kingston_url( 'index.html' ); ?>" class="btn btn-gold">Go to home <span class="arrow">→</span></a>
-          <a href="<?php echo kingston_url( 'contact.html' ); ?>" class="btn btn-light">Contact us</a>
+          <a href="<?php echo kingston_url( 'index' ); ?>" class="btn btn-gold">Go to home <span class="arrow">→</span></a>
+          <a href="<?php echo kingston_url( 'contact' ); ?>" class="btn btn-light">Contact us</a>
         </div>
       </div>
     </div>

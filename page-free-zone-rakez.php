@@ -1,150 +1,72 @@
 <?php
 /**
  * Template Name: Free Zone — RAKEZ
- *
- * Static page template converted from free-zone-rakez.html.
- * Edit the markup below to update the page; the WordPress editor is not used.
  */
 get_header();
-?>
-<section class="page-header">
-  <div class="container">
-    <div class="crumbs">
-      <a href="<?php echo kingston_url('index.html'); ?>">Home</a> <span>›</span> <span>Free Zones · RAKEZ</span>
-    </div>
-    <span class="eyebrow" style="color:var(--gold-400)">RAKEZ · Ras Al Khaimah</span>
-    <h1 class="mt-2">Set up your business in RAKEZ — Ras Al Khaimah Economic Zone.</h1>
-    <p>The cost-effective free zone with industrial scale and emerging-business agility.</p>
-  </div>
-</section>
-<div class="detail-banner">
-  <!-- IMAGE PLACEHOLDER · replace assets/img/freezones/rakez.svg with banner photo -->
-  <div class="img-frame"><img src="<?php echo kingston_asset('img/freezones/rakez.svg'); ?>" alt="RAKEZ Free Zone" loading="lazy"/></div>
-</div>
+$kingston_detail_is_freezone = true;
+$kingston_detail_defaults = array(
+    'breadcrumb'   => 'Free Zones · RAKEZ',
+    'page_eyebrow' => 'RAKEZ · Ras Al Khaimah',
+    'page_heading' => 'Set up your business in RAKEZ — Ras Al Khaimah Economic Zone.',
+    'page_intro'   => 'The cost-effective free zone with industrial scale and emerging-business agility.',
+    'banner_image' => kingston_asset( 'img/freezones/rakez.svg' ),
+    'banner_alt'   => 'RAKEZ Free Zone',
 
-<section>
-  <div class="container service-layout">
-    <div class="service-content reveal">
-      <span class="eyebrow">RAKEZ · Ras Al Khaimah</span>
-      <h2 style="margin-top:14px">Ras Al Khaimah Economic Zone</h2>
-      <p>RAKEZ pulls together Ras Al Khaimah's economic zones into one platform that competes hard on cost and flexibility. For SMEs, e-commerce operations and industrial businesses that do not need a Dubai-postcode prestige play, RAKEZ frequently wins on total cost of ownership.</p>
-        <p>Kingston handles RAKEZ company formation, audits and tax compliance for businesses across the SME and industrial spectrum.</p>
+    'overview_eyebrow' => 'RAKEZ · Ras Al Khaimah',
+    'overview_heading' => 'Ras Al Khaimah Economic Zone',
+    'overview_body'    => "RAKEZ pulls together Ras Al Khaimah's economic zones into one platform that competes hard on cost and flexibility. For SMEs, e-commerce operations and industrial businesses that do not need a Dubai-postcode prestige play, RAKEZ frequently wins on total cost of ownership.\n\nKingston handles RAKEZ company formation, audits and tax compliance for businesses across the SME and industrial spectrum.",
 
-      <div class="fz-facts">
-        <div class="fz-fact"><div class="lbl">Sector focus</div><div class="val">Industry &amp; SMEs</div></div>
-        <div class="fz-fact"><div class="lbl">Setup time</div><div class="val">1–3 weeks</div></div>
-        <div class="fz-fact"><div class="lbl">Visas</div><div class="val">Office-based</div></div>
-        <div class="fz-fact"><div class="lbl">Office options</div><div class="val">Co-working to plots</div></div>
-      </div>
+    'fz_facts' => array(
+        array( 'label' => 'Sector focus',   'value' => 'Industry & SMEs' ),
+        array( 'label' => 'Setup time',     'value' => '1–3 weeks' ),
+        array( 'label' => 'Visas',          'value' => 'Office-based' ),
+        array( 'label' => 'Office options', 'value' => 'Co-working to plots' ),
+    ),
 
-      <h3 style="margin-top:36px">Why founders choose RAKEZ</h3>
-      <ul class="feat">
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Cost-competitive packages</strong><span>Setup and renewal costs typically come in well below Dubai-based zones — material for early-stage businesses.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Flexible facility options</strong><span>From co-working desks to industrial plots — the same zone scales with your business.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Activity breadth</strong><span>Over 1,000 permitted activities — commercial, professional, industrial, educational, media.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Quick incorporation</strong><span>Streamlined process — typical setup under 2 weeks.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Strong industrial cluster</strong><span>Established manufacturing tenant base — building materials, chemicals, food, packaging.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Easy renewal</strong><span>Renewals are typically straightforward and cheaper than Dubai zones.</span></div>
-        </li>
-      </ul>
+    'includes_heading' => 'Why founders choose RAKEZ',
+    'includes_items' => array(
+        array( 'title' => 'Cost-competitive packages',  'description' => 'Setup and renewal costs typically come in well below Dubai-based zones — material for early-stage businesses.' ),
+        array( 'title' => 'Flexible facility options',  'description' => 'From co-working desks to industrial plots — the same zone scales with your business.' ),
+        array( 'title' => 'Activity breadth',           'description' => 'Over 1,000 permitted activities — commercial, professional, industrial, educational, media.' ),
+        array( 'title' => 'Quick incorporation',        'description' => 'Streamlined process — typical setup under 2 weeks.' ),
+        array( 'title' => 'Strong industrial cluster',  'description' => 'Established manufacturing tenant base — building materials, chemicals, food, packaging.' ),
+        array( 'title' => 'Easy renewal',               'description' => 'Renewals are typically straightforward and cheaper than Dubai zones.' ),
+    ),
+    'why_heading' => 'Why Kingston for RAKEZ setup',
+    'why_items'   => array(
+        array( 'title' => 'Approved RAKEZ auditor',         'description' => 'Kingston is registered with RAKEZ as an approved auditor and corporate-services partner.' ),
+        array( 'title' => 'End-to-end setup',               'description' => 'Entity, licence, visa, office, banking — handled in one engagement letter.' ),
+        array( 'title' => 'No third-party hand-offs',       'description' => 'We do not outsource your setup or audit work to introduce-and-disappear partners.' ),
+        array( 'title' => 'Audit and tax under one roof',   'description' => 'After setup, we stay on as your auditor and corporate tax advisor.' ),
+    ),
+    'related_items' => array(
+        array( 'label' => 'DMCC',   'link' => 'free-zone-dmcc' ),
+        array( 'label' => 'JAFZA',  'link' => 'free-zone-jafza' ),
+        array( 'label' => 'DIFC',   'link' => 'free-zone-difc' ),
+        array( 'label' => 'ADGM',   'link' => 'free-zone-adgm' ),
+        array( 'label' => 'DAFZA',  'link' => 'free-zone-dafza' ),
+        array( 'label' => 'IFZA',   'link' => 'free-zone-ifza' ),
+        array( 'label' => 'Meydan', 'link' => 'free-zone-meydan' ),
+        array( 'label' => 'SHAMS',  'link' => 'free-zone-shams' ),
+        array( 'label' => 'All Free Zones', 'link' => 'freezones', 'view_all' => true ),
+    ),
 
-      <h3>Why Kingston for RAKEZ setup</h3>
-      <p>Kingston is registered with RAKEZ as an approved auditor and corporate-services partner. We handle setup end-to-end — entity, licence, visa, office, banking — and stay on as your auditor and tax partner. No hand-offs, no &quot;we will introduce you to a third party&quot;.</p>
-    </div>
-    <aside style="display:flex;flex-direction:column;gap:18px">
-      <div class="aside-card">
-        <h4>Talk to a partner</h4>
-        <p>Free, confidential, 30 minutes. We will tell you whether we can help and what it will cost.</p>
-        <a href="<?php echo kingston_url('contact.html'); ?>" class="btn btn-gold" style="width:100%">Book consultation</a>
-        <div class="info" style="margin-top:24px">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 2.08 4.18 2 2 0 0 1 4.07 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          <div><b>Call us</b>+971 50 874 7098</div>
-        </div>
-        <div class="info">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          <div><b>Email us</b>info@kingstonca.com</div>
-        </div>
-        <div class="info">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          <div><b>Visit us</b>Office 203, Aspin Commercial Tower, Sheikh Zayed Road, Dubai</div>
-        </div>
-      </div>
-      <div class="related-services">
-        <h4>Other UAE Free Zones</h4>
-        <a href="<?php echo kingston_url('free-zone-dmcc.html'); ?>">DMCC <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('free-zone-jafza.html'); ?>">JAFZA <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('free-zone-difc.html'); ?>">DIFC <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('free-zone-adgm.html'); ?>">ADGM <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('free-zone-dafza.html'); ?>">DAFZA <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('free-zone-ifza.html'); ?>">IFZA <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('free-zone-meydan.html'); ?>">Meydan <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('free-zone-shams.html'); ?>">SHAMS <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('freezones.html'); ?>" style="margin-top:6px;color:var(--gold-700);font-weight:600">All Free Zones <span class="arrow">→</span></a>
-      </div>
-    </aside>
-  </div>
-</section>
+    'process_eyebrow' => 'Process',
+    'process_heading' => 'Your RAKEZ setup, step by step.',
+    'process_steps'   => array(
+        array( 'title' => 'Activity & licence', 'description' => 'Confirm activities, licence type, share capital and shareholder structure — documented in writing before filing.' ),
+        array( 'title' => 'Incorporation',      'description' => 'Name approval, MoA/AoA, trade licence, establishment and immigration cards.' ),
+        array( 'title' => 'Visas & office',     'description' => 'Investor visa, employee visas, dependent visas and physical or flexi-office allocation.' ),
+        array( 'title' => 'Banking & tax',      'description' => 'UAE corporate bank account, FTA registration, accounting setup and audit pre-readiness.' ),
+    ),
+    'faq_heading' => 'RAKEZ — common questions answered.',
+    'faq_items' => array(
+        array( 'question' => 'Can a RAKEZ company operate in Dubai?', 'answer' => 'A RAKEZ company can do business with Dubai, but to physically operate in Dubai (lease an office, hire staff there) typically requires a branch or distributor arrangement.' ),
+        array( 'question' => 'What types of licences does RAKEZ issue?', 'answer' => 'Commercial, professional, service, industrial, educational, media and e-commerce licences.' ),
+        array( 'question' => 'Is RAKEZ a good fit for industrial setup?', 'answer' => 'Yes — RAKEZ has a strong industrial estate offering, with land, warehousing and pre-built facilities.' ),
+        array( 'question' => 'Is annual audit mandatory in RAKEZ?', 'answer' => 'Yes — annual audited financial statements are required. Kingston supports RAKEZ audit submissions.' ),
+    ),
+);
 
-<section class="bg-bone">
-  <div class="container">
-    <div class="section-head reveal">
-      <span class="eyebrow center">Process</span>
-      <h2>Your RAKEZ setup, step by step.</h2>
-    </div>
-    <div class="process">
-      <div class="step reveal"><span class="step-num">01</span><h4>Activity &amp; licence</h4><p>Confirm activities, licence type, share capital and shareholder structure — documented in writing before filing.</p></div>
-      <div class="step reveal"><span class="step-num">02</span><h4>Incorporation</h4><p>Name approval, MoA/AoA, trade licence, establishment and immigration cards.</p></div>
-      <div class="step reveal"><span class="step-num">03</span><h4>Visas &amp; office</h4><p>Investor visa, employee visas, dependent visas and physical or flexi-office allocation.</p></div>
-      <div class="step reveal"><span class="step-num">04</span><h4>Banking &amp; tax</h4><p>UAE corporate bank account, FTA registration, accounting setup and audit pre-readiness.</p></div>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="container" style="max-width:880px">
-    <div class="section-head reveal">
-      <span class="eyebrow center">FAQ</span>
-      <h2>RAKEZ — common questions answered.</h2>
-    </div>
-      <details class="faq reveal"><summary>Can a RAKEZ company operate in Dubai?</summary><p>A RAKEZ company can do business with Dubai, but to physically operate in Dubai (lease an office, hire staff there) typically requires a branch or distributor arrangement.</p></details>
-      <details class="faq reveal"><summary>What types of licences does RAKEZ issue?</summary><p>Commercial, professional, service, industrial, educational, media and e-commerce licences.</p></details>
-      <details class="faq reveal"><summary>Is RAKEZ a good fit for industrial setup?</summary><p>Yes — RAKEZ has a strong industrial estate offering, with land, warehousing and pre-built facilities.</p></details>
-      <details class="faq reveal"><summary>Is annual audit mandatory in RAKEZ?</summary><p>Yes — annual audited financial statements are required. Kingston supports RAKEZ audit submissions.</p></details>
-  </div>
-</section>
-
-<section style="padding:48px 0 var(--section-y)">
-  <div class="container">
-    <div class="cta-banner reveal">
-      <div class="container cta-banner-row">
-        <div>
-          <span class="eyebrow" style="color:var(--gold-400)">Ready to talk?</span>
-          <h2 class="mt-2">Bring us your hardest audit, tax or advisory question.</h2>
-          <p>Book a free 30-minute consultation. We will tell you straight whether we can help — and how much it will cost.</p>
-        </div>
-        <div class="cta-actions">
-          <a href="<?php echo kingston_url('contact.html'); ?>" class="btn btn-gold">Book consultation <span class="arrow">→</span></a>
-          <a href="tel:+971508747098" class="btn btn-light">Call +971 50 874 7098</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<?php get_footer();
+get_template_part( 'template-parts/detail-page' );
+get_footer();

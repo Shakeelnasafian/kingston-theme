@@ -1,16 +1,13 @@
 <?php
 /**
  * Template Name: Business Setup
- *
- * Static page template converted from business-setup.html.
- * Edit the markup below to update the page; the WordPress editor is not used.
  */
 get_header();
 ?>
 <section class="page-header">
   <div class="container">
     <div class="crumbs">
-      <a href="<?php echo kingston_url('index.html'); ?>">Home</a> <span>›</span> <span>Business Setup</span>
+      <a href="<?php echo kingston_url('index'); ?>">Home</a> <span>›</span> <span>Business Setup</span>
     </div>
     <span class="eyebrow" style="color:var(--gold-400)">Business Setup</span>
     <h1 class="mt-2">Start your UAE business with a partner who stays after the licence is issued.</h1>
@@ -25,7 +22,7 @@ get_header();
       <p>The right answer depends on what you sell, who you sell it to, and where your customers are. We will recommend in writing — not just sell you the highest-margin licence.</p>
     </div>
     <div class="service-grid" style="grid-template-columns:repeat(3,1fr)">
-      <a href="<?php echo kingston_url('mainland-setup.html'); ?>" class="service-card has-image reveal">
+      <a href="<?php echo kingston_url('mainland-setup'); ?>" class="service-card has-image reveal">
         <!-- IMAGE PLACEHOLDER · replace assets/img/services/mainland-setup.svg with photo -->
         <div class="img-frame ar-3x2"><img src="<?php echo kingston_asset('img/services/mainland-setup.svg'); ?>" alt="Mainland Setup" loading="lazy"/></div>
         <div class="card-body">
@@ -36,7 +33,7 @@ get_header();
         <span class="read">Mainland details <span class="arrow">→</span></span>
         </div>
       </a>
-      <a href="<?php echo kingston_url('freezones.html'); ?>" class="service-card has-image reveal">
+      <a href="<?php echo kingston_url('freezones'); ?>" class="service-card has-image reveal">
         <!-- IMAGE PLACEHOLDER · replace assets/img/services/free-zone.svg with photo -->
         <div class="img-frame ar-3x2"><img src="<?php echo kingston_asset('img/services/free-zone.svg'); ?>" alt="Freezones" loading="lazy"/></div>
         <div class="card-body">
@@ -47,7 +44,7 @@ get_header();
         <span class="read">Browse Free Zones <span class="arrow">→</span></span>
         </div>
       </a>
-      <a href="<?php echo kingston_url('offshore-setup.html'); ?>" class="service-card has-image reveal">
+      <a href="<?php echo kingston_url('offshore-setup'); ?>" class="service-card has-image reveal">
         <!-- IMAGE PLACEHOLDER · replace assets/img/services/offshore-setup.svg with photo -->
         <div class="img-frame ar-3x2"><img src="<?php echo kingston_asset('img/services/offshore-setup.svg'); ?>" alt="Offshore Setup" loading="lazy"/></div>
         <div class="card-body">
@@ -69,7 +66,7 @@ get_header();
       <h2>Setup is the start, not the finish.</h2>
     </div>
     <div class="service-grid">
-      <a href="<?php echo kingston_url('pro-services.html'); ?>" class="service-card has-image reveal">
+      <a href="<?php echo kingston_url('pro-services'); ?>" class="service-card has-image reveal">
         <!-- IMAGE PLACEHOLDER · replace assets/img/services/pro-services.svg with photo -->
         <div class="img-frame ar-3x2"><img src="<?php echo kingston_asset('img/services/pro-services.svg'); ?>" alt="Pro Services" loading="lazy"/></div>
         <div class="card-body">
@@ -80,7 +77,7 @@ get_header();
         <span class="read">PRO details <span class="arrow">→</span></span>
         </div>
       </a>
-      <a href="<?php echo kingston_url('feasibility-studies.html'); ?>" class="service-card has-image reveal">
+      <a href="<?php echo kingston_url('feasibility-studies'); ?>" class="service-card has-image reveal">
         <!-- IMAGE PLACEHOLDER · replace assets/img/services/feasibility.svg with photo -->
         <div class="img-frame ar-3x2"><img src="<?php echo kingston_asset('img/services/feasibility.svg'); ?>" alt="Feasibility Studies" loading="lazy"/></div>
         <div class="card-body">
@@ -91,7 +88,7 @@ get_header();
         <span class="read">Feasibility details <span class="arrow">→</span></span>
         </div>
       </a>
-      <a href="<?php echo kingston_url('accounting.html'); ?>" class="service-card has-image reveal">
+      <a href="<?php echo kingston_url('accounting'); ?>" class="service-card has-image reveal">
         <!-- IMAGE PLACEHOLDER · replace assets/img/services/accounting.svg with photo -->
         <div class="img-frame ar-3x2"><img src="<?php echo kingston_asset('img/services/accounting.svg'); ?>" alt="Accounting" loading="lazy"/></div>
         <div class="card-body">
@@ -136,21 +133,5 @@ get_header();
   </div>
 </section>
 
-<section style="padding:48px 0 var(--section-y)">
-  <div class="container">
-    <div class="cta-banner reveal">
-      <div class="container cta-banner-row">
-        <div>
-          <span class="eyebrow" style="color:var(--gold-400)">Ready to talk?</span>
-          <h2 class="mt-2">Bring us your hardest audit, tax or advisory question.</h2>
-          <p>Book a free 30-minute consultation. We will tell you straight whether we can help — and how much it will cost.</p>
-        </div>
-        <div class="cta-actions">
-          <a href="<?php echo kingston_url('contact.html'); ?>" class="btn btn-gold">Book consultation <span class="arrow">→</span></a>
-          <a href="tel:+971508747098" class="btn btn-light">Call +971 50 874 7098</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<?php get_template_part( 'template-parts/cta-banner' ); ?>
 <?php get_footer();
