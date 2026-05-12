@@ -1,156 +1,59 @@
 <?php
 /**
  * Template Name: Accounting & Bookkeeping
- *
- * Static page template converted from accounting.html.
- * Edit the markup below to update the page; the WordPress editor is not used.
  */
 get_header();
-?>
-<section class="page-header">
-  <div class="container">
-    <div class="crumbs">
-      <a href="<?php echo kingston_url('index.html'); ?>">Home</a> <span>›</span> <span>Accounting &amp; Bookkeeping</span>
-    </div>
-    <span class="eyebrow" style="color:var(--gold-400)">Outsourced Finance</span>
-    <h1 class="mt-2">Books that close on time. Numbers your board can trust.</h1>
-    <p>Cloud-first outsourced accounting and bookkeeping for UAE businesses — IFRS-compliant, VAT-ready, audit-ready, and delivered as monthly management accounts your CFO can actually use to run the business.</p>
-  </div>
-</section>
-<div class="detail-banner">
-  <!-- IMAGE PLACEHOLDER · replace assets/img/services/accounting.svg with banner photo -->
-  <div class="img-frame"><img src="<?php echo kingston_asset('img/services/accounting.svg'); ?>" alt="Accounting &amp; Bookkeeping — Kingston" loading="lazy"/></div>
-</div>
 
-<section>
-  <div class="container service-layout">
-    <div class="service-content reveal">
-      <span class="eyebrow">Overview</span>
-      <h2 style="margin-top:14px">Accounting &amp; Bookkeeping in the UAE — done right.</h2>
-      <p>Most UAE finance teams do not have a bookkeeping problem. They have a closing-cycle problem. Invoices booked late, reconciliations done quarterly, and management accounts that arrive a month after they could have changed a decision.</p>
-        <p>Kingston runs the books for ambitious UAE SMEs and family offices — cloud-first, IFRS-compliant, with a hard-locked closing calendar and monthly management accounts in your inbox by working day five.</p>
-      <h3>What is included</h3>
-      <ul class="feat">
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Day-to-day bookkeeping</strong><span>Sales, purchases, banking, expenses, payroll journals — recorded daily or weekly in your cloud accounting system.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Monthly closing</strong><span>Hard-locked monthly close with reconciliations, accruals and prepayments — by working day five, every month.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Management accounts</strong><span>Board-ready monthly P&amp;L, balance sheet and cash-flow with variance commentary your CFO can present.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>VAT-ready chart of accounts</strong><span>Tax codes, supplier and customer master data set up so VAT returns prepare themselves.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Audit-ready files</strong><span>Workpapers, supporting documents and reconciliations kept in audit-ready order — your statutory audit gets faster and cheaper.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Cloud accounting setup</strong><span>Implementation and migration onto Zoho Books, QuickBooks, Xero or Tally — including data clean-up and training.</span></div>
-        </li>
-      </ul>
-      <h3>Why clients choose Kingston</h3>
-      <ul class="feat">
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Senior eyes monthly</strong><span>Every month-end pack is reviewed by a chartered accountant before it lands with you.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Audit-ready by design</strong><span>Books kept the way an auditor wants to find them — saving you days of audit fieldwork.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Fixed monthly fee</strong><span>Predictable monthly subscription, no surprise bills, transparent scope.</span></div>
-        </li>
-        <li>
-          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-          <div><strong>Joined-up with audit &amp; tax</strong><span>Same firm signs your statutory audit and files your VAT — no hand-offs, no re-explaining.</span></div>
-        </li>
-      </ul>
-    </div>
-    <aside style="display:flex;flex-direction:column;gap:18px">
-      <div class="aside-card">
-        <h4>Talk to a partner</h4>
-        <p>Free, confidential, 30 minutes. We will tell you whether we can help and what it will cost.</p>
-        <a href="<?php echo kingston_url('contact.html'); ?>" class="btn btn-gold" style="width:100%">Book consultation</a>
-        <div class="info" style="margin-top:24px">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 2.08 4.18 2 2 0 0 1 4.07 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          <div><b>Call us</b>+971 50 874 7098</div>
-        </div>
-        <div class="info">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          <div><b>Email us</b>info@kingstonca.com</div>
-        </div>
-        <div class="info">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          <div><b>Visit us</b>Office 203, Aspin Commercial Tower, Sheikh Zayed Road, Dubai</div>
-        </div>
-      </div>
-      <div class="related-services">
-        <h4>Other services</h4>
-        <a href="<?php echo kingston_url('statutory-audit.html'); ?>">Statutory Audit <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('internal-audit.html'); ?>">Internal Audit <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('forensic-audit.html'); ?>">Forensic Audit <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('free-zone.html'); ?>">Free Zone Audit <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('due-diligence.html'); ?>">Due Diligence <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('corporate-tax.html'); ?>">Corporate Tax <span class="arrow">→</span></a>
-        <a href="<?php echo kingston_url('services.html'); ?>" style="margin-top:6px;color:var(--gold-700);font-weight:600">View all services <span class="arrow">→</span></a>
-      </div>
-    </aside>
-  </div>
-</section>
+$kingston_detail_defaults = array(
+    'breadcrumb'   => 'Accounting & Bookkeeping',
+    'page_eyebrow' => 'Outsourced Finance',
+    'page_heading' => 'Books that close on time. Numbers your board can trust.',
+    'page_intro'   => 'Cloud-first outsourced accounting and bookkeeping for UAE businesses — IFRS-compliant, VAT-ready, audit-ready, and delivered as monthly management accounts your CFO can actually use to run the business.',
+    'banner_image' => kingston_asset( 'img/services/accounting.svg' ),
+    'banner_alt'   => 'Accounting & Bookkeeping — Kingston',
 
-<section class="bg-bone">
-  <div class="container">
-    <div class="section-head reveal">
-      <span class="eyebrow center">Our process</span>
-      <h2>How a accounting &amp; bookkeeping engagement runs.</h2>
-    </div>
-    <div class="process">
-      <div class="step reveal"><span class="step-num">01</span><h4>Onboarding &amp; cleanup</h4><p>We review your current accounting state, agree the chart of accounts, and clean up the opening balances.</p></div>
-      <div class="step reveal"><span class="step-num">02</span><h4>Cloud setup</h4><p>Migrate or stand up your cloud accounting system, configure VAT codes, banks, customers and suppliers.</p></div>
-      <div class="step reveal"><span class="step-num">03</span><h4>Monthly close</h4><p>Daily/weekly bookkeeping, hard-locked month-end close by WD5, reconciliations and management accounts pack.</p></div>
-      <div class="step reveal"><span class="step-num">04</span><h4>Quarterly review</h4><p>Quarterly review with a senior accountant — controls, KPIs, cash forecast and finance-function maturity plan.</p></div>
-    </div>
-  </div>
-</section>
+    'overview_heading' => 'Accounting & Bookkeeping in the UAE — done right.',
+    'overview_body'    => "Most UAE finance teams do not have a bookkeeping problem. They have a closing-cycle problem. Invoices booked late, reconciliations done quarterly, and management accounts that arrive a month after they could have changed a decision.\n\nKingston runs the books for ambitious UAE SMEs and family offices — cloud-first, IFRS-compliant, with a hard-locked closing calendar and monthly management accounts in your inbox by working day five.",
 
-<section>
-  <div class="container" style="max-width:880px">
-    <div class="section-head reveal">
-      <span class="eyebrow center">FAQ</span>
-      <h2>Common questions about accounting &amp; bookkeeping.</h2>
-    </div>
-      <details class="faq reveal"><summary>Which accounting software do you support?</summary><p>We work in Zoho Books, QuickBooks Online, Xero, Tally and Sage. If you already use one, we work in it. If not, we recommend the right fit and migrate you on.</p></details>
-      <details class="faq reveal"><summary>Can you handle payroll and WPS?</summary><p>Yes — monthly payroll preparation, WPS file generation and gratuity accruals are included in most engagements.</p></details>
-      <details class="faq reveal"><summary>Is this just for small businesses?</summary><p>No. Many of our outsourced accounting engagements are with mid-market groups (multi-entity, multi-currency) where outsourcing is faster and cheaper than building an in-house team.</p></details>
-      <details class="faq reveal"><summary>How quickly do you close the month?</summary><p>Working day five is our standard. For larger or multi-entity groups, we agree a tailored closing calendar — and stick to it.</p></details>
-  </div>
-</section>
+    'includes_items' => array(
+        array( 'title' => 'Day-to-day bookkeeping',     'description' => 'Sales, purchases, banking, expenses, payroll journals — recorded daily or weekly in your cloud accounting system.' ),
+        array( 'title' => 'Monthly closing',            'description' => 'Hard-locked monthly close with reconciliations, accruals and prepayments — by working day five, every month.' ),
+        array( 'title' => 'Management accounts',       'description' => 'Board-ready monthly P&L, balance sheet and cash-flow with variance commentary your CFO can present.' ),
+        array( 'title' => 'VAT-ready chart of accounts','description' => 'Tax codes, supplier and customer master data set up so VAT returns prepare themselves.' ),
+        array( 'title' => 'Audit-ready files',          'description' => 'Workpapers, supporting documents and reconciliations kept in audit-ready order — your statutory audit gets faster and cheaper.' ),
+        array( 'title' => 'Cloud accounting setup',     'description' => 'Implementation and migration onto Zoho Books, QuickBooks, Xero or Tally — including data clean-up and training.' ),
+    ),
+    'why_items' => array(
+        array( 'title' => 'Senior eyes monthly',         'description' => 'Every month-end pack is reviewed by a chartered accountant before it lands with you.' ),
+        array( 'title' => 'Audit-ready by design',       'description' => 'Books kept the way an auditor wants to find them — saving you days of audit fieldwork.' ),
+        array( 'title' => 'Fixed monthly fee',           'description' => 'Predictable monthly subscription, no surprise bills, transparent scope.' ),
+        array( 'title' => 'Joined-up with audit & tax',  'description' => 'Same firm signs your statutory audit and files your VAT — no hand-offs, no re-explaining.' ),
+    ),
+    'related_items' => array(
+        array( 'label' => 'Statutory Audit', 'link' => 'statutory-audit' ),
+        array( 'label' => 'Internal Audit',  'link' => 'internal-audit' ),
+        array( 'label' => 'Forensic Audit',  'link' => 'forensic-audit' ),
+        array( 'label' => 'Free Zone Audit', 'link' => 'free-zone' ),
+        array( 'label' => 'Due Diligence',   'link' => 'due-diligence' ),
+        array( 'label' => 'Corporate Tax',   'link' => 'corporate-tax' ),
+        array( 'label' => 'View all services', 'link' => 'services', 'view_all' => true ),
+    ),
 
-<section style="padding:48px 0 var(--section-y)">
-  <div class="container">
-    <div class="cta-banner reveal">
-      <div class="container cta-banner-row">
-        <div>
-          <span class="eyebrow" style="color:var(--gold-400)">Ready to talk?</span>
-          <h2 class="mt-2">Bring us your hardest audit, tax or advisory question.</h2>
-          <p>Book a free 30-minute consultation. We will tell you straight whether we can help — and how much it will cost.</p>
-        </div>
-        <div class="cta-actions">
-          <a href="<?php echo kingston_url('contact.html'); ?>" class="btn btn-gold">Book consultation <span class="arrow">→</span></a>
-          <a href="tel:+971508747098" class="btn btn-light">Call +971 50 874 7098</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<?php get_footer();
+    'process_heading' => 'How an accounting & bookkeeping engagement runs.',
+    'process_steps'   => array(
+        array( 'title' => 'Onboarding & cleanup', 'description' => 'We review your current accounting state, agree the chart of accounts, and clean up the opening balances.' ),
+        array( 'title' => 'Cloud setup',          'description' => 'Migrate or stand up your cloud accounting system, configure VAT codes, banks, customers and suppliers.' ),
+        array( 'title' => 'Monthly close',        'description' => 'Daily/weekly bookkeeping, hard-locked month-end close by WD5, reconciliations and management accounts pack.' ),
+        array( 'title' => 'Quarterly review',     'description' => 'Quarterly review with a senior accountant — controls, KPIs, cash forecast and finance-function maturity plan.' ),
+    ),
+    'faq_heading' => 'Common questions about accounting & bookkeeping.',
+    'faq_items'   => array(
+        array( 'question' => 'Which accounting software do you support?', 'answer' => 'We work in Zoho Books, QuickBooks Online, Xero, Tally and Sage. If you already use one, we work in it. If not, we recommend the right fit and migrate you on.' ),
+        array( 'question' => 'Can you handle payroll and WPS?', 'answer' => 'Yes — monthly payroll preparation, WPS file generation and gratuity accruals are included in most engagements.' ),
+        array( 'question' => 'Is this just for small businesses?', 'answer' => 'No. Many of our outsourced accounting engagements are with mid-market groups (multi-entity, multi-currency) where outsourcing is faster and cheaper than building an in-house team.' ),
+        array( 'question' => 'How quickly do you close the month?', 'answer' => 'Working day five is our standard. For larger or multi-entity groups, we agree a tailored closing calendar — and stick to it.' ),
+    ),
+);
+
+get_template_part( 'template-parts/detail-page' );
+get_footer();
